@@ -1,4 +1,3 @@
-# Make sure cabinet_api is running and that ENV = 'testing'
 from typing import List
 import pdb
 import cabinet_sdk as c
