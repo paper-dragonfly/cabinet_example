@@ -1,0 +1,5 @@
+images/*
+config/config.yaml
+.venv_sb/*
+*.ipynb
+extra/*
