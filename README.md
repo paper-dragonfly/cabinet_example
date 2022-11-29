@@ -7,7 +7,7 @@ A file system containing youtube video thumnbnails and a csv with associated met
 
 Link to dataset: https://www.kaggle.com/datasets/praneshmukhopadhyay/youtube-thumbnail-dataset 
 
-### Setup
+## Setup
 1. Create 'youtube' blob_type table in Cabinet database
     * this must be done from the cabinet_api repository
     * Navigate to cabinet_api/src/db_setup.py and add the following to the custom_blob_types dictionary: KEY = 'youtube', VALUE = {'photo_id':'VARCHAR', 'channel':'VARCHAR', 'category':'VARCHAR', 'title':'VARCHAR'}
@@ -16,6 +16,7 @@ Link to dataset: https://www.kaggle.com/datasets/praneshmukhopadhyay/youtube-thu
     * Define the Youtube Class and add it to Blob_type and blob_classes
 2. Install cabinet_sdk: pip install -i https://test.pypi.org/simple/ cabinet-sdk==0.0.5 
     * I recommend doing this in a virutal environment 
+    * 0.0.5 may not be the most up-to-date version, check Test PyPI to confirm
 3. Download the dataset and unzip the contents
     * make sure the metadata is in a file called metadata.csv and images are in a folder caled images
 5. Make sure the cabinet_api is running and that ENV is set to the desired environment before attempting to run youtube.py

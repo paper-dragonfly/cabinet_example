@@ -1,5 +1,7 @@
 from typing import List
 import pdb
+from PIL import Image 
+import io
 import cabinet_sdk as c
 
 # test cabinet_sdk library is installed and working  
@@ -77,5 +79,7 @@ for key in matching_entries:
 # UPDATE
 
 # RETRIEVE - not working think its cus sdk version is old 
-resp_bytes = c.retrieve('fruit', '108')
+resp_bytes = c.retrieve('youtube', '10')
 print(resp_bytes[:20])
+Image.open(io.BytesIO(resp_bytes)).show()
+
