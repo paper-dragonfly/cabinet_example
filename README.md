@@ -19,4 +19,4 @@ Link to dataset: https://www.kaggle.com/datasets/praneshmukhopadhyay/youtube-thu
 3. Download the dataset and unzip the contents
     * make sure the metadata is in a file called metadata.csv and images are in a folder caled images
 5. Make sure the cabinet_api is running and that ENV is set to the desired environment before attempting to run youtube.py
-6. Run youtube.py
+6. Run youtube_example.ipybn 
