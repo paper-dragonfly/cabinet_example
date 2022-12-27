@@ -3,6 +3,7 @@ cabinet:
     environment: http://api_host:api_port
     # Examples
     dev_local: http://localhost:5050
-    testing: http://localhost:5050
+    # testing: http://localhost:5050
+    testing: http://0.0.0.0:5000 
 
 # Values for api_host and api_port will come from the cabinet_api config/config.yaml file 

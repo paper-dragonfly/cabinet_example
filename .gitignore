@@ -1,4 +1,6 @@
 images/*
 config/config.yaml
 .venv_sb/*
+.venv_cabsb/*
 extra/*
+blobs/*
